@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+@font-face {
+    font-family: montreal;
+    src: url(./font/PPNeueMontreal.woff);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Hide scrollbar for WebKit-based browsers (Chrome, Safari, etc.) */
+
+*::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+/* styles/globals.css */
+
+body {
+    /* Vintage gradient background */
+    background: "#FEFCF4";
+    color: "#2D6DC4"; /* Text color */
+    font-family: 'Montreal', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-attachment: fixed; /* Optional: keeps gradient fixed on scroll */
+}
+
+/* Optional: Smooth transition for background changes */
+body, html {
+    transition: background 0.5s ease, color 0.5s ease;
+}

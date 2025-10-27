@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 15px;
+    gap: 40px;
+    margin-top: 20px;
+    color: black;
+}
+
+.footer a {
+    // background-color: rgb(88, 82, 82);
+    padding: 3px 10px;
+    border-radius: 15px;
+    border: 2px solid blue;
+    color: blue;
+}
